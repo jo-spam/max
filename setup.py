@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'move_node = max.move_node:main',
+            'pwm_controller_node = max.pwm_controller_node:main',
         ],
     },
 )
